@@ -11,10 +11,9 @@ const FormularioContacto = () => (
                     name="contact-textarea"
                 >
                 </textarea>
-                <button>Enviar</button>
+                <button className="buttonForm ml-1">Enviar</button>
             </div>
         </form>
-
     </div>
 
 )

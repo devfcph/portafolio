@@ -3,3 +3,18 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+.buttonForm {
+    @apply bg-fuchsia-800 text-teal-50 font-bold rounded-md border border-spacing-9 border-teal-50 rounded-xl py-4 px-8
+}
+
+.repos-list {
+    columns: 2;
+    -moz-columns: 2;
+    column-rule: 2px solid;
+    @apply p-4;
+}
+
+.repos-list li {
+    break-inside: avoid-column;
+}
